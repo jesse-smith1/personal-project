@@ -6,6 +6,7 @@ function App() {
     <div>
       <h1>App</h1>
       <p>React development has begun!</p>
+      {/* referencing the shop page */}
       <Shop />
     </div>
   )
