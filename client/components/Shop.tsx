@@ -1,5 +1,4 @@
 //importing data from file path Data/data to use on shop page.
-import { useState, ChangeEvent, FormEvent } from 'react'
 import data from '../Data/data'
 import Glockstats from './Glockstats'
 

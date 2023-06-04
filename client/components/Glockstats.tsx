@@ -1,5 +1,5 @@
 import data from '../Data/data'
-import { useState, ChangeEvent, FormEvent } from 'react'
+import { useState } from 'react'
 
 function Glockstats() {
   //find a full object that is referecing 1 glock
