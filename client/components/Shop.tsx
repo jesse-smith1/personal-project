@@ -16,11 +16,17 @@ function Shop() {
       </div>
       <div>
         <ul>
-          <img src="./public/images/Glock1.png" alt="This is a Glock"></img>
+          <img
+            src="./client/public/images/Glock1.png"
+            alt="This is a Glock"
+          ></img>
           <li>Name: {found.name}</li>
           <li>Rarity: {found.rarity}</li>
           <li>Damage: {found.damage}</li>
-          <img src="./public/images/Glock2.png" alt="This is a Glock"></img>
+          <img
+            src="./client/public/images/Glock2.png"
+            alt="This is a Glock"
+          ></img>
           <li>Name:{found.name}</li>
         </ul>
       </div>

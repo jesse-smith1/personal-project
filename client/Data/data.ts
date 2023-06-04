@@ -4,6 +4,7 @@
 export default [
   {
     id: 1,
+    imageUrl: '.client/public/images/Glock1.png',
     name: 'Black Cobra',
     rarity: 99,
     damage: 100,
