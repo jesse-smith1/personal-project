@@ -1,5 +1,6 @@
 import data from '../Data/data'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Glockstats() {
   //find a full object that is referecing 1 glock
@@ -8,11 +9,15 @@ function Glockstats() {
   const found = data.find((glocks) => glocks.id === glock)
   return (
     <ul>
-      <img src="./client/public/images/Glock1.png" alt="This is a Glock"></img>
       <li>Name: {found.name}</li>
       <li>Rarity: {found.rarity}</li>
       <li>Damage: {found.damage}</li>
-      <img src="./client/public/images/Glock2.png" alt="This is a Glock"></img>
+      <Link to="/buy">
+        <img
+          src="./client/public/images/Glock2.png"
+          alt="This is a Glock"
+        ></img>
+      </Link>
       <li>Name:{found.name}</li>
     </ul>
   )

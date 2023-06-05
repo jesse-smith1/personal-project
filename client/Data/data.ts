@@ -13,6 +13,7 @@ export default [
   {
     id: 2,
     name: 'Eagle',
+    imageUrl: '.client/public/images/Glock2.png',
     rarity: 99,
     damage: 80,
     reload: 10,
